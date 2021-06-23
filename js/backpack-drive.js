@@ -43,7 +43,7 @@ async function tagTreeMain() {
     f: "girl",
   };
 
-  const confirmationBaseULR = "https://www.amazon.com/hz/wishlist/ls/1MLYBQK7GDURZ/ref=nav_wishlist_lists_1?_encoding=UTF8&type=wishlist&pldnSite=1";
+  const confirmationBaseULR = window.siteURL + "/backpack-drive-confirmation-page/";
   const donationLink =
     "https://alternativefamilyservices.humanitru.com/donate?page=foster-learning&amount=50&options=100%2C75%2C25%2C10&tribute=true&ach=true&address=optional";
 
