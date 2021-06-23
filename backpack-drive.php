@@ -31,7 +31,7 @@
                     <?php print content_url('uploads/backpack-drive-assets/images/backpack-hero/'); ?>backpack-hero_uncwzr_c_scale,w_1185.jpg 1185w,
                     <?php print content_url('uploads/backpack-drive-assets/images/backpack-hero/'); ?>backpack-hero_uncwzr_c_scale,w_1347.jpg 1347w,
                     <?php print content_url('uploads/backpack-drive-assets/images/backpack-hero/'); ?>backpack-hero_uncwzr_c_scale,w_1400.jpg 1400w" 
-                    src="<?php print content_url('uploads/backpack-drive-assets/images/tagtree-hero/'); ?>tagtree-hero_uncwzr_c_scale,w_1400.jpg" alt="Excited gift recipient">
+                    src="<?php print content_url('uploads/backpack-drive-assets/images/backpack-hero/'); ?>backpack-hero_uncwzr_c_scale,w_1400.jpg 1400w" alt="Excited gift recipient">
             </picture>
         </div>
         <div class="col-12 col-lg-6 order-lg-2 order-1">
@@ -43,7 +43,7 @@
     </div>
 
     <div class="row">
-        <div class="col-12">
+        <div class="col-12 col-md-8 mb-4 mx-auto">
             Individuals, community organizations, and corporations can support a youth in care education by donating funds, backpacks, and school supplies.
         </div>
     </div>
