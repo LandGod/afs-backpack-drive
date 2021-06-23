@@ -21,7 +21,7 @@
     <!-- Header row with hero image -->
     <div class="row">
         <div class="col-12 col-lg-5 order-lg-1 order-2 text-center">
-            <div class="jumbotron bg-white px-0">
+            <div class="jumbotron bg-white px-0 mb-0 pb-0">
                 <picture>
                     <img class="img-fluid rounded mx-auto" style="object-fit:cover;" sizes="(max-width: 1400px) 100vw, 1400px" srcset="
                     <?php print content_url('uploads/backpack-drive-assets/images/backpack-hero/'); ?>backpack-banner_uncwzr_c_scale,w_200.jpg 200w,
@@ -31,21 +31,25 @@
                     <?php print content_url('uploads/backpack-drive-assets/images/backpack-hero/'); ?>backpack-banner_uncwzr_c_scale,w_1037.jpg 1037w,
                     <?php print content_url('uploads/backpack-drive-assets/images/backpack-hero/'); ?>backpack-banner_uncwzr_c_scale,w_1185.jpg 1185w,
                     <?php print content_url('uploads/backpack-drive-assets/images/backpack-hero/'); ?>backpack-banner_uncwzr_c_scale,w_1347.jpg 1347w,
-                    <?php print content_url('uploads/backpack-drive-assets/images/backpack-hero/'); ?>backpack-banner_uncwzr_c_scale,w_1400.jpg 1400w" 
-                    src="<?php print content_url('uploads/backpack-drive-assets/images/backpack-hero/'); ?>backpack-banner_uncwzr_c_scale,w_1400.jpg 1400w" alt="Happy kids with backpacks">
+                    <?php print content_url('uploads/backpack-drive-assets/images/backpack-hero/'); ?>backpack-banner_uncwzr_c_scale,w_1400.jpg 1400w" src="<?php print content_url('uploads/backpack-drive-assets/images/backpack-hero/'); ?>backpack-banner_uncwzr_c_scale,w_1400.jpg 1400w" alt="Happy kids with backpacks">
                 </picture>
             </div>
         </div>
-        <div class="col-12 col-lg-7 order-lg-2 order-1">
-            <div class="jumbotron">
-                <h1 class="display-3 text-uppercase">YOUTH IN CARE BACKPACK DRIVE</h1>
+        <div class="col-12 col-lg-7 order-lg-2 order-1 justify-center align-middle" style="display: flex;justify-content: center;align-content: center;">
+            <div class="jumbotron bg-white px-0 mb-0 pb-0">
+                <div style="display: flex;justify-content: center;align-content: center;flex-direction: column;" class="bg-white inline justify-center align-middle">
+                    <h1 style="height: min-content;background-color: lightgray;border-radius: 3px;padding: 4.75rem 0.25em;" class="my-0 text-uppercase bg-gray">
+                        <div style="white-space:nowrap;" class="h3 bd-hero-h3 display-1 py-0 my-0">Alternative Family Services</div>
+                        <div class="h1 bd-hero-h1 display-3 text-uppercase pt-0 mt-0">YOUTH IN CARE BACKPACK DRIVE</div>
+                    </h1>
+                </div>
             </div>
         </div>
     </div>
 
     <div class="row">
 
-        <div class="col-12 col-md-10 mb-4 mx-auto mt-2">
+        <div class="col-12 col-md-10 mb-4 mx-auto mt-4">
             <p class="lead">A virtual back-to-school drive to ensure that Alternative Family Services youth in foster care are fully equipped with the tools and resources necessary for an equitable education.</p>
             <p>Individuals, community organizations, and corporations can support a youth in care education by donating funds, backpacks, and school supplies.</p>
         </div>
