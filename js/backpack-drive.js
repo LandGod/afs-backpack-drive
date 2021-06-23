@@ -43,9 +43,9 @@ async function tagTreeMain() {
     f: "girl",
   };
 
-  const confirmationBaseULR = window.siteURL + "/tag-tree-confirmation-page/";
+  const confirmationBaseULR = "https://www.amazon.com/hz/wishlist/ls/1MLYBQK7GDURZ/ref=nav_wishlist_lists_1?_encoding=UTF8&type=wishlist&pldnSite=1";
   const donationLink =
-    "https://app.etapestry.com/onlineforms/AlternativeFamilyServices/fosterjoy.html";
+    "https://alternativefamilyservices.humanitru.com/donate?page=foster-learning&amount=50&options=100%2C75%2C25%2C10&tribute=true&ach=true&address=optional";
 
   // Return random number between 0 and n
   function rand(n) {
@@ -128,9 +128,9 @@ async function tagTreeMain() {
       tags[group].initial
     }&toy=${encodeURIComponent(tags[group].toy)}&age=${tags[group].age}"
             >
-              Buy Gift
+              Buy Item
             </a>
-            <a class="tt-tag btn btn-danger btn-afsOrange" href="${donationLink}" rel="noopener noreferrer">Donate Money for Gift</a>
+            <a class="tt-tag btn btn-danger btn-afsOrange" href="${donationLink}" rel="noopener noreferrer">Donate Money for Supplies</a>
             <button class="tt-tag btn btn-danger btn-afsOrange re-roll-button" data-group="${group}">New tag</button>
         </div>
         
@@ -141,9 +141,9 @@ async function tagTreeMain() {
       tags[group].initial
     }&toy=${encodeURIComponent(tags[group].toy)}&age=${tags[group].age}"
             >
-              Buy Gift
+              Buy Item
             </a>
-            <a class="tt-tag btn btn-sm btn-danger btn-afsOrange" href="${donationLink}" rel="noopener noreferrer">Donate Money for Gift</a>
+            <a class="tt-tag btn btn-sm btn-danger btn-afsOrange" href="${donationLink}" rel="noopener noreferrer">Donate Money for Supplies</a>
             <button class="tt-tag btn btn-sm btn-danger btn-afsOrange re-roll-button" data-group="${group}">New tag</button>
         </div>
     `;

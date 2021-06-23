@@ -20,31 +20,34 @@
 <div class="container mt-2" style="position: relative;">
     <!-- Header row with hero image -->
     <div class="row">
-        <div class="col-12 col-lg-6 order-lg-1 order-2 text-center">
-            <picture>
-                <img class="img-fluid rounded mx-auto" style="object-fit:cover;max-height:274px;" sizes="(max-width: 1400px) 100vw, 1400px" srcset="
-                    <?php print content_url('uploads/backpack-drive-assets/images/backpack-hero/'); ?>backpack-hero_uncwzr_c_scale,w_200.jpg 200w,
-                    <?php print content_url('uploads/backpack-drive-assets/images/backpack-hero/'); ?>backpack-hero_uncwzr_c_scale,w_464.jpg 464w,
-                    <?php print content_url('uploads/backpack-drive-assets/images/backpack-hero/'); ?>backpack-hero_uncwzr_c_scale,w_664.jpg 664w,
-                    <?php print content_url('uploads/backpack-drive-assets/images/backpack-hero/'); ?>backpack-hero_uncwzr_c_scale,w_879.jpg 879w,
-                    <?php print content_url('uploads/backpack-drive-assets/images/backpack-hero/'); ?>backpack-hero_uncwzr_c_scale,w_1037.jpg 1037w,
-                    <?php print content_url('uploads/backpack-drive-assets/images/backpack-hero/'); ?>backpack-hero_uncwzr_c_scale,w_1185.jpg 1185w,
-                    <?php print content_url('uploads/backpack-drive-assets/images/backpack-hero/'); ?>backpack-hero_uncwzr_c_scale,w_1347.jpg 1347w,
-                    <?php print content_url('uploads/backpack-drive-assets/images/backpack-hero/'); ?>backpack-hero_uncwzr_c_scale,w_1400.jpg 1400w" 
-                    src="<?php print content_url('uploads/backpack-drive-assets/images/backpack-hero/'); ?>backpack-hero_uncwzr_c_scale,w_1400.jpg 1400w" alt="Excited gift recipient">
-            </picture>
+        <div class="col-12 col-lg-5 order-lg-1 order-2 text-center">
+            <div class="jumbotron bg-white px-0">
+                <picture>
+                    <img class="img-fluid rounded mx-auto" style="object-fit:cover;" sizes="(max-width: 1400px) 100vw, 1400px" srcset="
+                    <?php print content_url('uploads/backpack-drive-assets/images/backpack-hero/'); ?>backpack-banner_uncwzr_c_scale,w_200.jpg 200w,
+                    <?php print content_url('uploads/backpack-drive-assets/images/backpack-hero/'); ?>backpack-banner_uncwzr_c_scale,w_464.jpg 464w,
+                    <?php print content_url('uploads/backpack-drive-assets/images/backpack-hero/'); ?>backpack-banner_uncwzr_c_scale,w_664.jpg 664w,
+                    <?php print content_url('uploads/backpack-drive-assets/images/backpack-hero/'); ?>backpack-banner_uncwzr_c_scale,w_879.jpg 879w,
+                    <?php print content_url('uploads/backpack-drive-assets/images/backpack-hero/'); ?>backpack-banner_uncwzr_c_scale,w_1037.jpg 1037w,
+                    <?php print content_url('uploads/backpack-drive-assets/images/backpack-hero/'); ?>backpack-banner_uncwzr_c_scale,w_1185.jpg 1185w,
+                    <?php print content_url('uploads/backpack-drive-assets/images/backpack-hero/'); ?>backpack-banner_uncwzr_c_scale,w_1347.jpg 1347w,
+                    <?php print content_url('uploads/backpack-drive-assets/images/backpack-hero/'); ?>backpack-banner_uncwzr_c_scale,w_1400.jpg 1400w" 
+                    src="<?php print content_url('uploads/backpack-drive-assets/images/backpack-hero/'); ?>backpack-banner_uncwzr_c_scale,w_1400.jpg 1400w" alt="Happy kids with backpacks">
+                </picture>
+            </div>
         </div>
-        <div class="col-12 col-lg-6 order-lg-2 order-1">
+        <div class="col-12 col-lg-7 order-lg-2 order-1">
             <div class="jumbotron">
-                <h1 class="display-4 text-uppercase">YOUTH IN CARE BACKPACK DRIVE</h1>
-                <p class="lead">A virtual back-to-school drive to ensure that Alternative Family Services youth in foster care are fully equipped with the tools and resources necessary for an equitable education.</p>
+                <h1 class="display-3 text-uppercase">YOUTH IN CARE BACKPACK DRIVE</h1>
             </div>
         </div>
     </div>
 
     <div class="row">
-        <div class="col-12 col-md-8 mb-4 mx-auto">
-            Individuals, community organizations, and corporations can support a youth in care education by donating funds, backpacks, and school supplies.
+
+        <div class="col-12 col-md-10 mb-4 mx-auto mt-2">
+            <p class="lead">A virtual back-to-school drive to ensure that Alternative Family Services youth in foster care are fully equipped with the tools and resources necessary for an equitable education.</p>
+            <p>Individuals, community organizations, and corporations can support a youth in care education by donating funds, backpacks, and school supplies.</p>
         </div>
     </div>
 
@@ -95,12 +98,12 @@
                             <li>Once you choose a foster youth's gift tag, select <em>Donate Money for Supplies</em> or <em>Buy & Ship Supplies</em>.</li>
                         </ol>
                         <div class="tt-oj-sub-item">
-                            <h4>Buy and Ship Gift</h4>
+                            <h4>Buy and Ship Supplies</h4>
                             <ul>
-                                <li>YPurchase any items from the <a href="https://www.amazon.com/hz/wishlist/ls/1MLYBQK7GDURZ/ref=nav_wishlist_lists_1?_encoding=UTF8&type=wishlist&pldnSite=1" target="_blank">Youth in Care Wishlist</a> (or any online retailer) and ship to:
+                                <li>Purchase any items from the <a href="https://www.amazon.com/hz/wishlist/ls/1MLYBQK7GDURZ/ref=nav_wishlist_lists_1?_encoding=UTF8&type=wishlist&pldnSite=1" target="_blank">Youth in Care Wishlist</a> (or any online retailer) and ship to:
                                     <p class="blockquote lead font-weight-bold my-2">AFS Development Department, 401 Roland Way #150, Oakland, CA 94621</p>
                                 </li>
-                                <li>AFS caseworkers will deliver gifts to foster youth.</li>
+                                <li>An AFS caseworkers will deliver the supplies to foster youth.</li>
                             </ul>
                         </div>
                         <div class="tt-oj-sub-item">
@@ -108,16 +111,14 @@
                             <ul>
                                 <li>
                                     Funds will be used for the highest educational priorities for foster youth.
-                                    Examples of how your donation may be used to foster learning with AFS clients:
-                                    <pre>
-                                        $5,000 - Tuition support for two Transition Age Youth (TAY)
-                                        $1,000 - Tutoring expenses for one Youth 
-                                        $500 - Laptop/Chromebook for school 
-                                        $250 - School clothes/shoes for two Youth 
-                                        $100 - New backpacks for three Youth 
-                                        $75 - Haircare kit for Black Youth 
-                                        $50 - School supplies for one Youth 
-                                    </pre>
+                                    Examples of how your donation may be used to foster learning with AFS clients:<br />
+                                    $5,000 - Tuition support for two Transition Age Youth (TAY)<br />
+                                    $1,000 - Tutoring expenses for one Youth <br />
+                                    $500 - Laptop/Chromebook for school <br />
+                                    $250 - School clothes/shoes for two Youth <br />
+                                    $100 - New backpacks for three Youth <br />
+                                    $75 - Haircare kit for Black Youth <br />
+                                    $50 - School supplies for one Youth
                                 </li>
                             </ul>
                             <a class="btn btn-danger btn-afsOrange" style="margin-left:2.75em;" href="https://alternativefamilyservices.humanitru.com/donate?page=foster-learning&amount=50&options=100%2C75%2C25%2C10&tribute=true&ach=true&address=optional" target="_blank" rel="noopener noreferrer">Donate</a>
@@ -141,7 +142,7 @@
     <div class="row mb-5">
         <div class="col-12">
             <div class="card">
-                <div class="h4 card-header text-center"><strong>Give to the AFS Holiday Fund – Foster Joy!</strong></div>
+                <div class="h4 card-header text-center"><strong>Donate Directly to the AFS Foster Learning Fund</strong></div>
                 <div class="card-body row text-center">
                     <div class="col-12 text-center">
                         <a class="btn btn-lg btn-danger btn-afsOrange" href="https://alternativefamilyservices.humanitru.com/donate?page=foster-learning&amount=50&options=100%2C75%2C25%2C10&tribute=true&ach=true&address=optional" rel="noopener noreferrer">Donate</a>
