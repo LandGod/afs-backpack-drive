@@ -27,11 +27,11 @@ async function tagTreeMain() {
     [button3, 3],
   ];
 
-  // See tagtree.php for declaration of tagTreeAssetsURL
-  const rawProfiles = await fetch(tagTreeAssetsURL + "profiles.json");
+  // See backpack-drive.php for declaration of backpackDriveAssetsURL
+  const rawProfiles = await fetch(backpackDriveAssetsURL + "profiles.json");
   const profilesList = await rawProfiles.json();
 
-  const rawNameFile = await fetch(tagTreeAssetsURL + "humanChildren.json");
+  const rawNameFile = await fetch(backpackDriveAssetsURL + "humanChildren.json");
   const namesList = await rawNameFile.json();
 
   const GENDERS = {
