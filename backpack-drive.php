@@ -89,12 +89,13 @@
                         <h2>Advance Youth Education: A Virtual Back-to-School Drive for Youth in Care</h2>
                         <ul>
                             <li>There is no limit to how many tags you can fulfill.</li>
-                            <li>Share the link to the Youth Education Drive with your network and on social media.</li>
-                            <li>Individuals, community organizations (churches, community groups) and businesses can participate in Foster Joy. Just share this webpage
-                                with your network!</li>
+                            <li>
+                                Individuals, community organizations (churches, community groups) and businesses can participate in Foster Learning.
+                                Just share this webpage with your network!
+                            </li>
                             <li>Questions can be emailed to Director of Development, Simone West - <a href="mailto:swest@afs4kids.org" target="_blank">swest@afs4kids.org</a>.</li>
                         </ul>
-                        <h3>Adopting a Tag</h3>
+                        <h3 style="color:#db680c;">Adopt a Tag</h3>
                         <ol>
                             <li>Click to choose youth age group.</li>
                             <li>Click "new tag" to browse requests. Hitting the back-arrow starts the tag search over.</li>
@@ -124,7 +125,7 @@
                                     $50 - School supplies for one Youth
                                 </li>
                             </ul>
-                            <a class="btn btn-danger btn-afsOrange" style="margin-left:2.75em;" href="https://alternativefamilyservices.humanitru.com/donate?page=foster-learning&amount=50&options=100%2C75%2C25%2C10&tribute=true&ach=true&address=optional" target="_blank" rel="noopener noreferrer">Donate</a>
+                            <a class="btn btn-lg btn-danger btn-afsOrange" style="margin-left:2.75em;" href="https://alternativefamilyservices.humanitru.com/donate?page=foster-learning&amount=50&options=100%2C75%2C25%2C10&tribute=true&ach=true&address=optional" target="_blank" rel="noopener noreferrer">Donate</a>
                         </div>
                     </div>
                 </div>
@@ -132,68 +133,7 @@
         </div>
     </div>
 
-
-
-    <!-- OR -->
-    <div class="row">
-        <div class="col-12 text-center">
-            <h1 class="text-center tt-or">OR</h1>
-        </div>
-    </div>
-
-    <!-- Donate row -->
-    <div class="row mb-5">
-        <div class="col-12">
-            <div class="card">
-                <div class="h4 card-header text-center"><strong>Donate Directly to the AFS Foster Learning Fund</strong></div>
-                <div class="card-body row text-center">
-                    <div class="col-12 text-center">
-                        <a class="btn btn-lg btn-danger btn-afsOrange" href="https://alternativefamilyservices.humanitru.com/donate?page=foster-learning&amount=50&options=100%2C75%2C25%2C10&tribute=true&ach=true&address=optional" rel="noopener noreferrer">Donate</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Sponsors -->
-    <div id="sponsors-row" class="row mb-4">
-        <div class="col-12">
-            <div class="card">
-                <h4 class="card-header text-center">Thank you to our corporate and organizational partners!</h4>
-                <div class="card-body row justify-content-center">
-                    <?php
-                    // We're going to generate the sponsor box dynamically with php and then just insert them all 
-                    // We'll use a JSON file to hold the info (see "/wp-content/uploads/backpack-drive-assets/sponsor-info.json")
-                    // with a specific folder holding the logos (see "/wp-content/uploads/backpack-drive-assets/sponsor-logos")
-                    // We're doing this with PHP so that the import happens once and then is cached, as this will be a lot more efficient,
-                    // however, this means that whenever you update sponsor-info.json, you'll need to udpate the page on the back end so that 
-                    // wordpress re-runs the php (and then Kinsta cache should clear automatically when this page is updated).
-
-                    $rawSponsors = file_get_contents(content_url('uploads/backpack-drive-assets/sponsor-info.json'));
-                    $sponsors = json_decode($rawSponsors, true);
-
-                    for ($i = 0; $i < count($sponsors); $i++) {
-
-                        $sponsorImageLink = content_url('uploads/backpack-drive-assets/sponsor-logos/' . $sponsors[$i]['logo']);
-                        $sponsorName = $sponsors[$i]['name'];
-                        $sponsorLink = $sponsors[$i]['link'];
-
-
-                        print "<div class='col-12 col-md-4 tt-sponsor-col mb-3'>";
-                        print   "<a href='$sponsorLink' rel='noopener noreferrer' target='__blank'>";
-                        print       "<div class='tt-sponsor-box'>";
-                        print           "<img src='$sponsorImageLink' alt='$sponsorName' class='tt-sponsor-image' style='object-fit:contain'>";
-                        print       "</div>";
-                        print   "</a>";
-                        print "</div>";
-                    };
-                    ?>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
+    
     <?php get_footer(); ?>
 
 
