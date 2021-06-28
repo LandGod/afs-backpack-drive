@@ -100,8 +100,8 @@
                             <li>Choose age group you’d like to adopt a tag for.</li>
                             <li>Click "new tag" to browse requests. Hitting the back-arrow starts the tag search over.</li>
                             <li>
-                                Once you choose a tag, select:<br/><em>Donate Money for Supplies</em><br/>OR<br/><em>Buy & Ship Supplies</em><br/>
-                                Purchase the requested item from the tag from any online retailer and ship to:<br/>
+                                Once you choose a tag, select:<br /><em>Donate Money for Supplies</em><br />OR<br /><em>Buy & Ship Supplies</em><br />
+                                Purchase the requested item from the tag from any online retailer and ship to:<br />
                                 <em>AFS Development Department, 401 Roland Way #150, Oakland, CA 94621</em>
                             </li>
                         </ol>
@@ -109,7 +109,7 @@
                             <h4>Donate Directly to the AFS Foster Learning Fund</h4>
                             <ul>
                                 <li>
-                                    Funds will be used for the highest educational priorities for foster youth.<br/>
+                                    Funds will be used for the highest educational priorities for foster youth.<br />
                                     <em>Examples of how your donation may be used to foster learning with AFS clients:</em><br />
                                     $5,000 - Tuition support for two Transition Age Youth (TAY)<br />
                                     $1,000 - Tutoring expenses for one Youth <br />
@@ -120,7 +120,14 @@
                                     $50 - School supplies for one Youth
                                 </li>
                             </ul>
-                            <a class="btn btn-lg btn-danger btn-afsOrange mx-auto" style="margin-left:2.75em;" href="https://alternativefamilyservices.humanitru.com/donate?page=foster-learning&amount=50&options=100%2C75%2C25%2C10&tribute=true&ach=true&address=optional" target="_blank" rel="noopener noreferrer">Donate</a>
+                            <a class="btn btn-lg btn-danger btn-afsOrange mx-auto" style="margin-left:2.75em;" href="https://alternativefamilyservices.humanitru.com/donate?page=foster-learning&amount=50&options=100%2C75%2C25%2C10&tribute=true&ach=true&address=optional" target="_blank" rel="noopener">Donate</a>
+                        </div>
+                        <div class="tt-oj-sub-item">
+                            <h4>Buy and Ship Items from the <a href="https://www.amazon.com/hz/wishlist/ls/1MLYBQK7GDURZ/ref=nav_wishlist_lists_1?_encoding=UTF8&type=wishlist&pldnSite=1" rel="noopener" target="_blank">Youth in Care Wishlist</a></h4>
+                            <ul>
+                                <li>Instead of “Adopting a Tag” or donating money, you may choose to purchase and ship any items from the <a href="https://www.amazon.com/hz/wishlist/ls/1MLYBQK7GDURZ/ref=nav_wishlist_lists_1?_encoding=UTF8&type=wishlist&pldnSite=1" target="_blank" rel="noopener">Youth in Care Wishlist</a></li>
+                                <li>AFS receives 0.5% of the proceeds from items purchased from AmazonSmile.</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
