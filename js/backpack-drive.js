@@ -43,7 +43,7 @@ async function tagTreeMain() {
     f: "girl",
   };
 
-  const confirmationBaseULR = window.siteURL + "/backpack-drive-confirmation-page/";
+  const confirmationBaseULR = window.siteURL + "/education-drive-confirmation-page/";
   const donationLink =
     "https://alternativefamilyservices.humanitru.com/donate?page=foster-learning&amount=50&options=100%2C75%2C25%2C10&tribute=true&ach=true&address=optional";
 

@@ -40,7 +40,7 @@
                 <div style="display: flex;justify-content: center;align-content: center;flex-direction: column;" class="bg-white inline justify-center align-middle">
                     <h1 style="height: min-content;background-color: lightgray;border-radius: 3px;padding: 4.75rem 0.25em;" class="my-0 text-uppercase bg-gray">
                         <div style="white-space:nowrap;" class="h3 bd-hero-h3 display-1 py-0 my-0">Alternative Family Services</div>
-                        <div class="h1 bd-hero-h1 display-3 text-uppercase pt-0 mt-0">YOUTH IN CARE BACKPACK DRIVE</div>
+                        <div class="h1 bd-hero-h1 display-3 text-uppercase pt-0 mt-0">YOUTH IN CARE EDUCATION DRIVE</div>
                     </h1>
                 </div>
             </div>
@@ -86,36 +86,31 @@
                 </div>
                 <div class="card-body row">
                     <div class="col-12">
-                        <h2>Advance Youth Education: A Virtual Back-to-School Drive for Youth in Care</h2>
+                        <h2 style="color:#db680c;">A Virtual Back-to-School Drive for Youth in Care</h2>
                         <ul>
-                            <li>There is no limit to how many tags you can fulfill.</li>
                             <li>
-                                Individuals, community organizations (churches, community groups) and businesses can participate in Foster Learning.
-                                Just share this webpage with your network!
+                                Individuals, community organizations (churches, community groups) and businesses can support a youth in care by donating funds, backpacks, and school supplies.
                             </li>
+                            <li>There is no limit to how many tags you can fulfill.</li>
+                            <li>Share this webpage with your network and on social media.</li>
                             <li>Questions can be emailed to Director of Development, Simone West - <a href="mailto:swest@afs4kids.org" target="_blank">swest@afs4kids.org</a>.</li>
                         </ul>
                         <h3 style="color:#db680c;">Adopt a Tag</h3>
                         <ol>
-                            <li>Click to choose youth age group.</li>
+                            <li>Choose age group you’d like to adopt a tag for.</li>
                             <li>Click "new tag" to browse requests. Hitting the back-arrow starts the tag search over.</li>
-                            <li>Once you choose a foster youth's gift tag, select <em>Donate Money for Supplies</em> or <em>Buy & Ship Supplies</em>.</li>
+                            <li>
+                                Once you choose a tag, select:<br/><em>Donate Money for Supplies</em><br/>OR<br/><em>Buy & Ship Supplies</em><br/>
+                                Purchase the requested item from the tag from any online retailer and ship to:<br/>
+                                <em>AFS Development Department, 401 Roland Way #150, Oakland, CA 94621</em>
+                            </li>
                         </ol>
-                        <div class="tt-oj-sub-item">
-                            <h4>Buy and Ship Supplies</h4>
-                            <ul>
-                                <li>Purchase any items from the <a href="https://www.amazon.com/hz/wishlist/ls/1MLYBQK7GDURZ/ref=nav_wishlist_lists_1?_encoding=UTF8&type=wishlist&pldnSite=1" target="_blank">Youth in Care Wishlist</a> (or any online retailer) and ship to:
-                                    <p class="blockquote lead font-weight-bold my-2">AFS Development Department, 401 Roland Way #150, Oakland, CA 94621</p>
-                                </li>
-                                <li>An AFS caseworkers will deliver the supplies to foster youth.</li>
-                            </ul>
-                        </div>
                         <div class="tt-oj-sub-item">
                             <h4>Donate Directly to the AFS Foster Learning Fund</h4>
                             <ul>
                                 <li>
-                                    Funds will be used for the highest educational priorities for foster youth.
-                                    Examples of how your donation may be used to foster learning with AFS clients:<br />
+                                    Funds will be used for the highest educational priorities for foster youth.<br/>
+                                    <em>Examples of how your donation may be used to foster learning with AFS clients:</em><br />
                                     $5,000 - Tuition support for two Transition Age Youth (TAY)<br />
                                     $1,000 - Tutoring expenses for one Youth <br />
                                     $500 - Laptop/Chromebook for school <br />
@@ -125,7 +120,7 @@
                                     $50 - School supplies for one Youth
                                 </li>
                             </ul>
-                            <a class="btn btn-lg btn-danger btn-afsOrange" style="margin-left:2.75em;" href="https://alternativefamilyservices.humanitru.com/donate?page=foster-learning&amount=50&options=100%2C75%2C25%2C10&tribute=true&ach=true&address=optional" target="_blank" rel="noopener noreferrer">Donate</a>
+                            <a class="btn btn-lg btn-danger btn-afsOrange mx-auto" style="margin-left:2.75em;" href="https://alternativefamilyservices.humanitru.com/donate?page=foster-learning&amount=50&options=100%2C75%2C25%2C10&tribute=true&ach=true&address=optional" target="_blank" rel="noopener noreferrer">Donate</a>
                         </div>
                     </div>
                 </div>
@@ -133,7 +128,7 @@
         </div>
     </div>
 
-    
+
     <?php get_footer(); ?>
 
 
