@@ -38,7 +38,7 @@
         <div class="col-12 col-lg-7 order-lg-2 order-1 justify-center align-middle" style="display: flex;justify-content: center;align-content: center;">
             <div class="jumbotron bg-white px-0 mb-0 pb-0">
                 <div style="display: flex;justify-content: center;align-content: center;flex-direction: column;" class="bg-white inline justify-center align-middle">
-                    <h1 style="height: min-content;background-color: lightgray;border-radius: 3px;padding: 4.75rem 0.25em;" class="my-0 text-uppercase bg-gray">
+                    <h1 style="height: min-content;background-color: lightgray;border-radius: 3px;padding: 4.75rem 0.25em;" class="my-0 text-uppercase bg-gray text-center">
                         <div style="white-space:nowrap;" class="h3 bd-hero-h3 display-1 py-0 my-0">Alternative Family Services</div>
                         <div class="h1 bd-hero-h1 display-3 text-uppercase pt-0 mt-0">YOUTH IN CARE EDUCATION DRIVE</div>
                     </h1>
@@ -48,7 +48,6 @@
     </div>
 
     <div class="row">
-
         <div class="col-12 col-md-10 mb-4 mx-auto mt-4">
             <p class="lead">A virtual back-to-school drive to ensure that youth in foster care are fully equipped with the tools and resources necessary for an equitable education.</p>
         </div>
@@ -81,12 +80,12 @@
                 </div>
                 <div class="carbody row">
                     <div class="col-12">
-                        <hr class="mx-4">
+                        <hr class="mx-4 mb-0">
                     </div>
                 </div>
-                <div class="card-body row">
+                <div class="card-body row pt-0">
                     <div class="col-12">
-                        <h2 style="color:#db680c;">A Virtual Back-to-School Drive for Youth in Care</h2>
+                        <h3 style="color:#db680c;">A Virtual Back-to-School Drive for Youth in Care</h3>
                         <ul>
                             <li>
                                 Individuals, community organizations (churches, community groups) and businesses can support a youth in care by donating funds, backpacks, and school supplies.
@@ -106,7 +105,7 @@
                             </li>
                         </ol>
                         <div class="tt-oj-sub-item">
-                            <h4>Donate Directly to the AFS Foster Learning Fund</h4>
+                            <h3 style="color:#db680c;">Donate Directly to the AFS Foster Learning Fund</h3>
                             <ul>
                                 <li>
                                     Funds will be used for the highest educational priorities for foster youth.<br />
@@ -120,10 +119,10 @@
                                     $50 - School supplies for one Youth
                                 </li>
                             </ul>
-                            <a class="btn btn-lg btn-danger btn-afsOrange mx-auto" style="margin-left:2.75em;" href="https://alternativefamilyservices.humanitru.com/donate?page=foster-learning&amount=50&options=100%2C75%2C25%2C10&tribute=true&ach=true&address=optional" target="_blank" rel="noopener">Donate</a>
+                            <a class="btn btn-lg btn-danger btn-afsOrange mx-auto mb-4" style="margin-left:2.75em;" href="https://alternativefamilyservices.humanitru.com/donate?page=foster-learning&amount=50&options=100%2C75%2C25%2C10&tribute=true&ach=true&address=optional" target="_blank" rel="noopener">Donate</a>
                         </div>
                         <div class="tt-oj-sub-item">
-                            <h4>Buy and Ship Items from the <a href="https://www.amazon.com/hz/wishlist/ls/1MLYBQK7GDURZ/ref=nav_wishlist_lists_1?_encoding=UTF8&type=wishlist&pldnSite=1" rel="noopener" target="_blank">Youth in Care Wishlist</a></h4>
+                            <h3 style="color:#db680c;">Buy and Ship Items from the <a href="https://www.amazon.com/hz/wishlist/ls/1MLYBQK7GDURZ/ref=nav_wishlist_lists_1?_encoding=UTF8&type=wishlist&pldnSite=1" rel="noopener" target="_blank">Youth in Care Wishlist</a></h3>
                             <ul>
                                 <li>Instead of “Adopting a Tag” or donating money, you may choose to purchase and ship any items from the <a href="https://www.amazon.com/hz/wishlist/ls/1MLYBQK7GDURZ/ref=nav_wishlist_lists_1?_encoding=UTF8&type=wishlist&pldnSite=1" target="_blank" rel="noopener">Youth in Care Wishlist</a></li>
                                 <li>AFS receives 0.5% of the proceeds from items purchased from AmazonSmile.</li>
