@@ -101,7 +101,7 @@
                             <li>
                                 Once you choose a tag, select:<br /><em>Donate Money for Supplies</em><br />OR<br /><em>Buy & Ship Supplies</em><br />
                                 Purchase the requested item from the tag from any online retailer and ship to:<br />
-                                <em>AFS Development Department, 401 Roland Way #150, Oakland, CA 94621</em>
+                                <span style="font-weight:bold;">AFS Development Department, 401 Roland Way #150, Oakland, CA 94621</span>
                             </li>
                         </ol>
                         <div class="tt-oj-sub-item">
